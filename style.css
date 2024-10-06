@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ----------------resume template --------------- */
+#Resume-template{
+    display: none;
+}
+.leftsec{
+background-color: rgb(133, 138, 138);
+}
+.img{
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;
+}
+
+.cardHeader{
+background-color: rgb(133, 138, 138);}
+
+.background{
+    background-color: rgb(133, 138, 138);
+}
+
+.error{
+    background-color: brown;
+}
+
+
+
+.flexbox .row {
+    display: flex;             
+    justify-content: space-between;
+    align-items: center;           
+}
+
+.colName {
+    flex: 1;             /* Take up remaining space */
+    text-align: left;    
+}
+
+.colDetails {
+    width: 150px;     
+
+}
